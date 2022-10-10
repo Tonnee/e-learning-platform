@@ -27,3 +27,8 @@ window.addEventListener('scroll', function() {
         removeClassonScroll();
     }
 })
+
+// Video Modal
+$('.demo_video').magnificPopup({
+    type: 'iframe'
+});
