@@ -32,3 +32,23 @@ window.addEventListener('scroll', function() {
 $('.demo_video').magnificPopup({
     type: 'iframe'
 });
+
+// Review Slick Slider
+$('.review_main').slick({
+    infinite: true,
+    speed: 500,
+    // fade: true,
+    cssEase: 'linear',
+    asNavFor: '.review_img_main',
+    prevArrow: '<span class="slick-prev"><i class="bi bi-chevron-left"></i></span>',
+    nextArrow: '<span class="slick-next"><i class="bi bi-chevron-right"></i></span>'
+});
+
+$('.review_img_main').slick({
+    infinite: true,
+    speed: 500,
+    // fade: true,
+    cssEase: 'linear',
+    asNavFor: '.review_main',
+    arrows: false
+});
