@@ -37,9 +37,12 @@ $('.demo_video').magnificPopup({
 $('.review_main').slick({
     infinite: true,
     speed: 500,
-    // fade: true,
+    fade: true,
     cssEase: 'linear',
     asNavFor: '.review_img_main',
+    pauseOnHover: true,
+    autoplay: true,
+    autoplaySpeed: 9000,
     prevArrow: '<span class="slick-prev"><i class="bi bi-chevron-left"></i></span>',
     nextArrow: '<span class="slick-next"><i class="bi bi-chevron-right"></i></span>'
 });
@@ -47,8 +50,9 @@ $('.review_main').slick({
 $('.review_img_main').slick({
     infinite: true,
     speed: 500,
-    // fade: true,
+    fade: true,
     cssEase: 'linear',
     asNavFor: '.review_main',
+    pauseOnHover: true,
     arrows: false
 });
