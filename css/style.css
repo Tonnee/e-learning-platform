@@ -577,3 +577,84 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
 .contact_info:hover {
     color: #F58658;
 }
+
+/* ---------------------- contact end ---------------------- */
+
+/* ---------------------- footer start ---------------------- */
+footer {
+    margin-top: 174px;
+    background-color: #3E5368;
+    padding-top: 150px;
+    color: #fff;
+}
+
+.footer_orange_text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #F58658;
+    font-weight: 300;
+    margin-bottom: 39px;
+}
+
+footer span {
+    display: block;
+}
+
+footer h6 {
+    margin-bottom: 61px;
+}
+
+footer h6 span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer_logo_white {
+    width: 100px;
+}
+
+.footer_logo_white img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.footer_copyright {
+    margin-top: 114px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #F58658;
+    font-weight: 300;
+    padding: 28px 0 31px 0;
+    border-top: 1px solid rgb(255, 255, 255, .43)
+}
+
+.footer_col_link ul li {
+    padding: 8px 0;
+}
+
+.footer_col_link ul li a {
+    color: #fff;
+    font-size: 16px;
+    transition: all linear .2s;
+}
+
+.footer_col_link ul li a:hover {
+    color: #F58658;
+}
+
+
+.footer_col_link ul li a i {
+    margin-right: 28px;
+}
+
+.f-19 {
+    font-size: 19px !important;
+}
+
+.f-14 {
+    font-size: 14px !important;
+}
+/* ---------------------- footer end ---------------------- */
