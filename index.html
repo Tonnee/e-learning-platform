@@ -400,6 +400,12 @@
 
     <!-- ----------------------- footer start ----------------------- -->
     <footer>
+        <!-- ------------------------------ Return to Top start ------------------------------ -->
+        <a href="javascript:" id="return-to-top">
+            <i class="bi bi-caret-up-fill"></i>
+        </a>
+        <!-- ------------------------------ Return to Top end ------------------------------ -->
+
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -513,6 +519,22 @@
 
     <!-- ----------------------- js start ----------------------- -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        // ===== Return to Top ==== 
+        $(window).scroll(function() {
+            if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 200px
+                $('#return-to-top').fadeIn(200);    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+            }
+        });
+
+        $('#return-to-top').click(function() {      // When arrow is clicked
+            $('body,html').animate({
+                scrollTop : 0                       // Scroll to top of body
+            }, 500);
+        });
+    </script>
     <script src="script/bootstrap.bundle.min.js"></script>
     <script src="script/jquery.magnific-popup.min.js"></script>
     <script src="script/slick.min.js"></script>
