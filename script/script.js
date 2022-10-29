@@ -56,3 +56,10 @@ $('.review_img_main').slick({
     pauseOnHover: true,
     arrows: false
 });
+
+// Animation on scroll
+AOS.init({
+    offset: 30,
+    once: true,
+    duration: 1000,
+});
