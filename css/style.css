@@ -632,6 +632,10 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
 
 /* ---------------------- footer start ---------------------- */
 #return-to-top {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #F58658;
 	opacity: 1;
 	position: fixed;
 	bottom: 30px;
@@ -640,15 +644,21 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
 	display: none;
 	z-index: 100000;
 	text-align: center;
+    transition: all linear .1s;
 }
 
 #return-to-top i {
 	color: #F58658;
 	font-size: 25px;
+    transition: all linear .1s;
 }
 
-#return-to-top i:hover {
-    color: #FFEA00;
+#return-to-top:hover {
+    border-color: #A7F3FF;
+}
+
+#return-to-top:hover i {
+    color: #A7F3FF;
 }
 
 footer {
