@@ -430,25 +430,19 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
 }
 
 .play_icon_outer {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, .45);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.play_icon_outer:hover {
-    animation: pluse 1250ms infinite;
-}
-
 @keyframes pluse {
     0% {
         transform: scale(1);
+        opacity: .75;
     }
     100% {
-        transform: scale(1.35);
+        transform: scale(1.45);
+        opacity: 0;
     }
 }
 
@@ -463,10 +457,36 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
     position: relative;
 }
 
-.play_icon_inner i {
-    font-size: 54px;
+.play_icon_inner::before {
+    content: '\f04b';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 28px;
     color: #F58658;
-    margin-left: 3px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.play_icon_inner::after {
+    content: '';
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, .45);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    animation: pluse 1250ms infinite;
 }
 /* ---------------------- demo class start ---------------------- */
 
