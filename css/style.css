@@ -171,6 +171,10 @@ p {
     margin-bottom: 30px;
 }
 
+.mb_35 {
+    margin-bottom: 35px;
+}
+
 .mb_45 {
     margin-bottom: 45px;
 }
@@ -642,7 +646,6 @@ box-shadow: 0px 3px 13px 0px rgba(0,94,217,0.15);
 .contact_info:hover {
     color: #F58658;
 }
-
 /* ---------------------- contact end ---------------------- */
 
 /* ---------------------- footer start ---------------------- */
@@ -783,7 +786,6 @@ footer h6 span {
     object-position: center;
     border-radius: 21px;
 }
-/* +++++++++++++++++++++ courses details page end +++++++++++++++++++++ */
 
 .outline_img_box {
     height: auto;
@@ -837,3 +839,25 @@ footer h6 span {
 .contact_main .title_text {
     margin-bottom: 127px;
 }
+/* +++++++++++++++++++++ courses details page end +++++++++++++++++++++ */
+
+/* +++++++++++++++++++++ video materials page start +++++++++++++++++++++ */
+.video_box_left {
+    margin-right: 50px;
+}
+
+.video_box_right {
+    margin-left: 50px;
+}
+
+.video_title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+}
+
+.video_material_main .video_img {
+    height: 330px;
+}
+/* +++++++++++++++++++++ video materials page end +++++++++++++++++++++ */
