@@ -63,3 +63,13 @@ AOS.init({
     once: true,
     duration: 1000,
 });
+
+// Outline Slick Slider
+$('.outline_slider').slick({
+    infinite: true,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true
+});
