@@ -861,3 +861,24 @@ footer h6 span {
     height: 330px;
 }
 /* +++++++++++++++++++++ video materials page end +++++++++++++++++++++ */
+
+/* +++++++++++++++++++++ Testimonial end page Start +++++++++++++++++++++ */
+.testi_box {
+    background-color: #F1FDFF;
+    border-radius: 24px;
+    padding: 32px;
+}
+
+.testi_box .review_img_box {
+    display: flex !important;
+    flex-direction: row;
+}
+
+.testi_box  .img_round {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin: 0 25px 0 0;
+}
+/* +++++++++++++++++++++ Testimonial end page end +++++++++++++++++++++ */
