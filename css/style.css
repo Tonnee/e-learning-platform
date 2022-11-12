@@ -198,7 +198,6 @@ p {
 .mr_20 {
     margin-right: 20px;
 }
-
 /* ---------------------- common css end ---------------------- */
 
 /* ---------------------- header start ---------------------- */
@@ -862,7 +861,7 @@ footer h6 span {
 }
 /* +++++++++++++++++++++ video materials page end +++++++++++++++++++++ */
 
-/* +++++++++++++++++++++ Testimonial end page Start +++++++++++++++++++++ */
+/* +++++++++++++++++++++ Testimonial page Start +++++++++++++++++++++ */
 .testi_box {
     background-color: #F1FDFF;
     border-radius: 24px;
@@ -881,4 +880,19 @@ footer h6 span {
     border: 6px solid #fff;
     margin: 0 25px 0 0;
 }
-/* +++++++++++++++++++++ Testimonial end page end +++++++++++++++++++++ */
+/* +++++++++++++++++++++ Testimonial  page end +++++++++++++++++++++ */
+
+/* +++++++++++++++++++++ Instructor profile start +++++++++++++++++++++ */
+.instructor_img img {
+    display: block;
+    width: 100%;
+}
+
+.instructor_name {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 100px;
+}
+/* +++++++++++++++++++++ Instructor profile end +++++++++++++++++++++ */
