@@ -1,0 +1,612 @@
+/* ======================== Extra Small Device end ======================== */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    body {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    .nav_logo {
+        height: 49px;
+    }
+
+    .side-bar {
+        width: 217px;
+    }
+
+    .side-bar .menu {
+        margin-top: 35px;
+    }
+
+    .side-bar .menu .item a {
+        font-size: 18px;
+    }
+
+    /* Home Page Start */
+    .title_text {
+        font-size: 32px;
+    }
+
+    .banner_text_part {
+        padding-right: 0;
+        margin-top: 65px;
+    }
+
+    .banner_img_part {
+        margin-top: 90px;
+        margin-left: 0;
+    }
+
+    .banner_img_top, .banner_img_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner_img_bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner_img_one {
+        height: 305px;
+        width: 290px;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .banner_img_two {
+        height: 290px;
+        width: 290px;
+        margin-bottom: 50px;
+    }
+
+    .banner_img_four {
+        height: 290px;
+        width: 290px;
+        margin-top: 0;
+    }
+
+    .banner_img_three {
+        height: 290px;
+        width: 290px;
+        margin-top: 50px;
+        margin-right: 0;
+    }
+
+    #top_banner .white_text {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+
+    .section_top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_heading {
+        margin-bottom: 50px;
+    }
+
+    .upcoming_text {
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    #practice_question .title_text {
+        text-align: center;
+    }
+
+    #demo_class .demo_box {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    .video_img {
+        height: 240px;
+    }
+
+    .video_left {
+        left: 35px;
+    }
+
+    .video_img img {
+        border-radius: 12px;
+    }
+
+    .img_round {
+        margin: 0 30px;
+    }
+
+    .dot_right .dot_light {
+        margin-left: 30px;
+    }
+
+    .dot_left .dot_light {
+        margin-right: 30px;
+    }
+
+    .slick-slider .slick-arrow {
+        display: none !important;
+    }
+
+    #contact_part .title_text {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+
+    .contact_box {
+        margin-bottom: 65px;
+    }
+
+    footer {
+        margin-top: 60px;
+        padding-top: 95px;
+    }
+
+    .footer_col_left {
+        margin-bottom: 70px;
+    }
+
+    .footer_col_link ul li a i {
+        margin-right: 16px;
+    }
+
+    .footer_col_link {
+        margin-bottom: 70px;
+    }
+
+    .footer_copyright {
+        margin-top: 20px;
+    }
+
+    /* Home Page End */
+
+    /* About Page Start */
+    #about_page .section_top {
+        margin-bottom: 0;
+    }
+
+    .about_box {
+        text-align: center;
+    }
+
+    #contact_part.mt_media {
+        margin-top: 50px;
+    }
+    /* About Page End */
+
+    /* Courses Page Start */
+    #course_page .demo_video_box {
+        margin-top: 80px;
+    }
+    /* Courses Page End */
+
+    /* Courses Details Page Start */
+    #course_details_page .title_text {
+        margin-bottom: 50px;
+    }
+
+    .details_box .section_heading {
+        text-align: center;
+    }
+
+    .details_point {
+        margin-bottom: 50px;
+    }
+
+    .material_main .section_top.mb_85 {
+        margin-bottom: 0;
+    }
+
+    #course_details_page .demo_class_box .demo_box {
+        text-align: center;
+        margin-bottom: 70px;
+    }
+
+    #course_details_page .demo_class_box.mb_150 {
+        margin-bottom: 100px;
+    }
+
+    #course_details_page .contact_main .title_text {
+        margin-top: 70px;
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    /* Courses Details Page End */
+
+    /* Free Question Page Start */
+    .question_number {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .qusetion_img_box {
+        margin-bottom: 50px;
+    }
+
+    .free_question_main .btn_box {
+        justify-content: center;
+    }
+    /* Free Question Page End */
+
+    /* Instructor profile Page start */
+    .instructor_profile_main .history_box.mt_150 {
+        margin-top: 80px;
+    }
+
+    .instrutor_info {
+        text-align: center;
+    }
+
+    #contact_part {
+        margin-top: 30px;
+    }
+    /* Instructor profile Page End */
+
+    /* testimonial page start */
+    #testimonial_page .section_top {
+        flex-direction: column !important;
+    }
+    /* testimonial page end */
+
+    /* Video materials page start */
+    .video_material_main {
+        text-align: center;
+    }
+
+    .video_material_main .video_box_left {
+        margin-right: 0;
+    }
+
+    .video_material_main .video_img {
+        height: 240px;
+    }
+
+    .video_material_main .video_box_right {
+        margin-left: 0;
+    }
+    /* Video materials page end */
+}
+/* ======================== Extra Small Device End ======================== */
+
+/* ======================== Small Device Start ======================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .side-bar .menu {
+        margin-top: 45px;
+    }
+
+    .banner_img_part {
+        margin-top: 95px;
+        margin-left: 0;
+    }
+
+    .banner_img_top, .banner_img_bottom {
+        justify-content: space-around;
+    }
+
+    .banner_img_bottom {
+        margin-top: 20px;
+    }
+
+    .upcoming_img {
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+    #practice_question .title_text {
+        text-align: center;
+    }
+
+    .demo_video_box {
+        margin-top: 70px;
+    }
+
+    .section_top .section_heading {
+        width: 61%;
+    }
+
+    .slick-slider .slick-arrow {
+        display: none !important;
+    }
+
+    .contact_box {
+        margin-bottom: 70px;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 100px;
+    }
+
+    .footer_col_left {
+        margin-bottom: 70px;
+    }
+
+    .footer_col_link {
+        margin-bottom: 70px;
+    }
+
+    .footer_copyright {
+        margin-top: 35px;
+    }
+    /* Home Page End */
+
+    /* About Page Start */
+    #about_page .section_heading {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about_box {
+        text-align: center;
+    }
+
+    #contact_part.mt_media .title_text {
+        text-align: center;
+        width: 100%;
+    }
+    /* About Page End */
+
+    /* Courses Page Start */
+    #course_page .demo_video_box {
+        margin-top: 100px;
+    }
+    /* Courses Page End */
+
+    /* Free Question Page Start */
+    #free_question_page .section_top {
+        flex-direction: column;
+    }
+
+    #free_question_page  .section_heading {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .question_number {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .qusetion_img_box {
+        margin-bottom: 50px;
+    }
+
+    .free_question_main .btn_box {
+        justify-content: center;
+    }
+    /* Free Question Page End */
+
+    /* Instructor profile Page start */
+    .instructor_profile_main .history_box.mt_150 {
+        margin-top: 80px;
+    }
+
+    .instrutor_info {
+        text-align: center;
+    }
+
+    #contact_part .section_top .title_text {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 85px;
+    }
+    /* Instructor profile Page End */
+
+    /* testimonial page Page start */
+    #testimonial_page .section_top {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    #testimonial_page .section_top .section_heading {
+        margin-bottom: 50px;
+    }
+    /* testimonial page Page end */
+
+    /* Video materials page start */
+    #video_material .section_top  {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #video_material .section_top .section_heading {
+        margin-bottom: 50px;
+    }
+
+    .video_material_main {
+        text-align: center;
+    }
+
+    .video_material_main .video_box_left {
+        margin-right: 0;
+    }
+
+    .video_material_main .video_img {
+        height: 299px;
+    }
+
+    .video_material_main .video_box_right {
+        margin-left: 0;
+    }
+    /* Video materials page end */
+}
+/* ======================== Small Device End ======================== */
+
+/* ======================== Medium Device Start ======================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .side-bar .menu {
+        margin-top: 45px;
+    }
+
+    .banner_img_part {
+        margin-top: 95px;
+        margin-left: 0;
+    }
+
+    .banner_img_one {
+        height: 250px;
+        width: 250px;
+        margin-right: 60px;
+    }
+
+    .banner_img_two {
+        height: 250px;
+        width: 250px;
+    }
+
+    .banner_img_three {
+        height: 250px;
+        width: 250px;
+        margin-top: 60px;
+        margin-right: 60px;
+    }
+
+    .banner_img_four {
+        height: 250px;
+        width: 250px;
+        margin-top: 60px;
+    }
+
+    .upcoming_img {
+        margin-top: 90px;
+        justify-content: center;
+    }
+
+    .video_img {
+        height: 340px;
+    }
+
+    #practice_question .title_text {
+        text-align: center;
+    }
+
+    .demo_video_box {
+        margin-top: 70px;
+    }
+
+    .slick-slider .slick-arrow {
+        display: none !important;
+    }
+
+    .contact_box {
+        margin-bottom: 70px;
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-top: 100px;
+    }
+
+    .footer_col_left {
+        margin-bottom: 70px;
+    }
+
+    .footer_col_link {
+        margin-bottom: 70px;
+    }
+
+    .footer_copyright {
+        margin-top: 35px;
+    }
+    /* Home Page End */
+
+    /* Courses Page Start */
+    #course_page .demo_video_box {
+        margin-top: 100px;
+    }
+    /* Courses Page End */
+
+    /* Free Question Page Start */
+    .question_number {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .qusetion_img_box {
+        margin-bottom: 50px;
+    }
+
+    .free_question_main .btn_box {
+        justify-content: center;
+    }
+    /* Free Question Page End */
+
+    /* Instructor profile Page start */
+    .instructor_name {
+        margin-top: 70px;
+    }
+    /* Instructor profile Page end */
+
+    /* Video materials page start */
+    .video_material_main .video_box_left {
+        margin-right: 0;
+    }
+
+    .video_material_main .video_img {
+        height: 340px;
+    }
+
+    .video_material_main .video_box_right {
+        margin-left: 0;
+    }
+    /* Video materials page end */
+}
+/* ======================== Medium Device End ======================== */
+
+/* ======================== Large Device Start ======================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_img_part {
+        margin-left: 0;
+    }
+
+    /* Instructor profile Page start */
+    .instructor_name {
+        margin-top: 70px;
+    }
+    /* Instructor profile Page end */
+
+    /* Video materials page start */
+    .video_material_main .video_box_left {
+        margin-right: 0;
+    }
+
+    .video_material_main .video_box_right {
+        margin-left: 0;
+    }
+    /* Video materials page end */
+}
+/* ======================== Large Device End ======================== */
+
+/* ======================== Extra Large Device Start ======================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .offset-lg-2 {
+        margin-left: 0;
+    }
+
+    .video_material_main .video_box_left {
+        margin-right: 0;
+    }
+
+    .video_material_main .video_box_right {
+        margin-left: 0;
+    }
+}
+/* ======================== Extra Large Device End ======================== */
+
+/* ======================== Extra Extra Large Device Start ======================== */
+@media (min-width: 1400px) {
+    .offset-lg-2 {
+        margin-left: 0;
+    }
+}
+/* ======================== Extra Extra Large Device End ======================== */

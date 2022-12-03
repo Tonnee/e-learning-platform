@@ -71,7 +71,15 @@ $('.outline_slider').slick({
     dots: true,
     autoplay: true,
     autoplaySpeed: 5000,
-    pauseOnHover: true
+    pauseOnHover: true,
+    responsive: [
+        {
+          breakpoint: 575,
+          settings: {
+            dots: false
+          }
+        }
+    ]
 });
 // jQuery Plugin: http://flaviusmatis.github.io/simplePagination.js/
 
